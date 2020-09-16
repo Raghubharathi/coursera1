@@ -4,5 +4,5 @@
 	byeSpeaker.speak=function(name){
 		console.log(speakWord + " " + name);
 	}
- 	bye.helloSpeaker=byeSpeaker;
+ 	window.byeSpeaker=byeSpeaker;
 })(window);
